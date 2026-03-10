@@ -1,8 +1,8 @@
 # 📄 CV Creator
 
-**CV Generator Pro** est une application web moderne et intuitive conçue pour simplifier la création de CV professionnels. Grâce à une interface interactive divisée en deux colonnes, vous pouvez remplir vos informations et personnaliser l'apparence de votre document tout en visualisant le rendu final en temps réel.
+**CV Creator** est une application web moderne et intuitive conçue pour simplifier la création de CV professionnels. Grâce à une interface interactive divisée en deux colonnes, vous pouvez remplir vos informations et personnaliser l'apparence de votre document tout en visualisant le rendu final en temps réel.
 
-🚀 **Accéder à l'application :** [tobias-ferrand.ovh/cv-creator/index.html](https://tobias-ferrand.ovh/cv-creator/index.html)
+🚀 **Accéder à l'application :** [tobias-ferrand.ovh/cv-creator/](https://tobias-ferrand.ovh/cv-creator/index.html)
 
 ---
 
