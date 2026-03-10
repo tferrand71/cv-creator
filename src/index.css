@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Configuration pour l'impression */
+@layer utilities {
+    .print-exact {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    overflow: hidden; /* Pour éviter le double scrollbar sur l'écran */
+}
+
+/* La feuille A4 à l'écran */
+.a4-screen {
+    width: 210mm;
+    min-height: 297mm;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transform-origin: top center;
+}
+
+/* Règles spécifiques quand on clique sur "Imprimer" */
+@media print {
+    @page { margin: 0; size: auto; }
+    body { background: white; }
+
+    /* Cacher l'interface (Header, Editeur) */
+    .no-print { display: none !important; }
+
+    /* Afficher uniquement le CV en plein écran */
+    .print-area {
+        display: block !important;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+}
