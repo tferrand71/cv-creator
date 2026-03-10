@@ -1,4 +1,4 @@
-# 📄 CV Generator Pro
+# 📄 CV Creator
 
 **CV Generator Pro** est une application web moderne et intuitive conçue pour simplifier la création de CV professionnels. Grâce à une interface interactive divisée en deux colonnes, vous pouvez remplir vos informations et personnaliser l'apparence de votre document tout en visualisant le rendu final en temps réel.
 
